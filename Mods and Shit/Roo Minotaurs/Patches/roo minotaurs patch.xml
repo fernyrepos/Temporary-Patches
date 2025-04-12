@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>       
+        <Operation Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="RBM_MilkingMachine"]/label</xpath>
+            <value>
+                <label>human milking spot</label>
+            </value>
+        </Operation>
+        <Operation Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="RBM_MilkingMachine"]/description</xpath>
+            <value>
+                <description>A place where pawns with the lactation gene will automatically produce milk.</description>
+            </value>
+        </Operation>
+</Patch>

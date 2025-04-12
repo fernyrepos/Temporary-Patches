@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Temporary Patches</name>
+	<author>ferny</author>
+	<packageId>ferny.temporarypatches</packageId>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>ferny.replacelib</packageId>
+			<displayName>ReplaceLib</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/3417393194</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<description>Temporary random patches.</description>
+	<loadAfter>
+		<li>Ludeon.Rimworld</li>
+		<li>Ludeon.Rimworld.Royalty</li>
+		<li>Ludeon.Rimworld.Ideology</li>
+		<li>Ludeon.Rimworld.Biotech</li>
+		<li>Ludeon.Rimworld.Anomaly</li>
+		<li>yayoflake.mahjong</li>
+		<li>dankpyon.medieval.overhaul</li>
+		<li>orion.therapy</li>
+		<li>biomesteam.biomesfossils</li>
+		<li>oskarpotocki.vfe.tribals</li>
+		<li>zal.animalcages</li>
+		<li>xmb.ancienturbanruins.mo</li>
+		<li>dubwise.dubsbadhygiene</li>
+		<li>rooboid.satyrfaun.expanded</li>
+		<li>rooboid.minotaur</li>
+		<li>kentington.saveourship2</li>
+		<li>ferny.linkablescategory</li>
+		<li>OskarPotocki.VFE.Medieval2</li>
+		<li>VE.VanillaChristmasExpanded</li>
+		<li>oskarpotocki.vanillavehiclesexpanded</li>
+	</loadAfter>
+</ModMetaData>

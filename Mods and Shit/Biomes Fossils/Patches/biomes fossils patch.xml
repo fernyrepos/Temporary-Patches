@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>       
+
+
+
+
+
+                        <!-- AMBER MEDIEVAL OVERHAUL -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Medieval Overhaul</li>
+		</mods>
+            <match Class="PatchOperationSequence">
+                <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs</xpath>
+                    <value>
+                    <ReplaceLib.ReplacerDef>
+                        <defName>Amber_BiomesFossils_MedievalOverhaul</defName>
+                        <replacers>
+                            <li>
+                                <replace>DankPyon_Amber</replace>
+                                <with>BMT_AmberResource</with>
+                            </li>
+                            <li>
+                                <replace>DankPyon_MineableAmber</replace>
+                                <with>BMT_MineableAmber</with>
+                            </li>
+                        </replacers>
+                    </ReplaceLib.ReplacerDef>
+                    </value>
+                </li>
+                </operations>
+		</match>
+	</Operation>
+
+
+
+
+
+
+</Patch>

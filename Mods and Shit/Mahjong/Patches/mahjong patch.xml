@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>       
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="YF_MahjongTable_B"]/label</xpath>
+                    <value>
+                        <label>Mahjong table</label>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="YF_MahjongTable_BA"]/label</xpath>
+                    <value>
+                        <label>automated Mahjong table</label>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="YF_MahjongTable_A"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory></designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="YF_MahjongTable_AA"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory></designationCategory>
+                    </value>
+                </Operation>
+</Patch>

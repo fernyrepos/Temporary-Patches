@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>/Defs/BiomeDef[defName="BorealForest"]/wildPlants/*[self::VCE_Plant_TreeSpruce or self::VCE_Plant_TreeFir or self::VCE_Plant_TreeJuniper]</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>/Defs/BiomeDef[defName="Tundra"]/wildPlants/*[self::VCE_Plant_TreeSpruce or self::VCE_Plant_TreeFir or self::VCE_Plant_TreeJuniper]</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VCE_Plant_TreeJuniper" or defName="VCE_Plant_TreeFir" or defName="VCE_Plant_TreeSpruce"]</xpath>
+  </Operation>
+
+</Patch>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/BiomeDef[defName="DankPyon_DarkForest"]/wildPlants</xpath>
+                    <value>
+                        <wildPlants>
+                            <Plant_HealrootWild>0.08</Plant_HealrootWild>
+                            <DankPyon_Plant_MindwortWild>0.08</DankPyon_Plant_MindwortWild>
+                            <DankPyon_Plant_PoppyWild>0.08</DankPyon_Plant_PoppyWild>
+                            <DankPyon_Plant_FleawortWild>0.08</DankPyon_Plant_FleawortWild>
+                            <DankPyon_Plant_FlyAgaricWild>0.08</DankPyon_Plant_FlyAgaricWild>
+                            <Plant_Berry>0.30</Plant_Berry>
+                            <Plant_Bush>0.4</Plant_Bush>
+                            <Plant_Grass>0.80</Plant_Grass>
+                            <Plant_TallGrass>0.80</Plant_TallGrass>
+                            <Plant_Brambles>1.0</Plant_Brambles>
+                            <!-- Trees -->
+                            <Plant_TreeWillow>0.05</Plant_TreeWillow>
+                            <DankPyon_GreatOak>0.025</DankPyon_GreatOak>
+                            <DankPyon_GreatIter>0.025</DankPyon_GreatIter>
+                            <DankPyon_GreatFir>0.15</DankPyon_GreatFir>
+                            <!--DankPyon_GreatWillow>0.15</DankPyon_GreatWillow-->
+                            <Plant_TreeOak>0.005</Plant_TreeOak>
+                            <Plant_TreeMaple>0.005</Plant_TreeMaple>
+                            <Plant_TreePoplar>0.005</Plant_TreePoplar>
+                        </wildPlants>
+                    </value>
+                </Operation>
+</Patch>

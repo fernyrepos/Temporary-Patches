@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>       
+
+                        <!-- Burn Pit -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Dubs Bad Hygiene</li>
+		</mods>
+            <match Class="PatchOperationSequence">
+                <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs</xpath>
+                    <value>
+                    <ReplaceLib.ReplacerDef>
+                        <defName>BurnPit_DubsHygiene_MedievalOverhaul</defName>
+                        <replacers>
+                            <li>
+                                <replace>BurnPit</replace>
+                                <with>DankPyon_BurnPit</with>
+                            </li>
+                        </replacers>
+                    </ReplaceLib.ReplacerDef>
+                    </value>
+                </li>
+                </operations>
+		</match>
+	</Operation>
+
+
+</Patch>

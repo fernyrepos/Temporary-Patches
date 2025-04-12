@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>       
+
+
+
+
+
+                        <!-- RESEARCH SPOT MEDIEVAL OVERHAUL -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Medieval Overhaul</li>
+		</mods>
+            <match Class="PatchOperationSequence">
+                <operations>
+                <li Class="PatchOperationRemove">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="DankPyon_ResearchingSpot"]</xpath>
+                </li>
+                </operations>
+		</match>
+	</Operation>
+
+
+
+
+
+
+</Patch>

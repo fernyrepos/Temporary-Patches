@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>              
+
+
+                <Operation Class="PatchOperationRemove">
+                    <success>Always</success>
+                    <xpath>Defs/DesignationCategoryDef[defName="Orders"]/specialDesignatorClasses/li[text()="Designator_PlanAdd"]</xpath>
+                </Operation>
+                <Operation Class="PatchOperationRemove">
+                    <success>Always</success>
+                    <xpath>Defs/DesignationCategoryDef[defName="Orders"]/specialDesignatorClasses/li[text()="Designator_PlanRemove"]</xpath>
+                </Operation>
+
+
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/DesignationCategoryDef[defName="Planning"]/order</xpath>
+                    <value>
+                        <order>1</order>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/DesignationCategoryDef[defName="Planning"]/label</xpath>
+                    <value>
+                        <label>Plans</label>
+                    </value>
+                </Operation>
+</Patch>

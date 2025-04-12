@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>
+        <Operation Class="PatchOperationAdd">
+            <xpath>Defs/TerrainDef[defName="RimNauts2_Vacuum_Glass"]</xpath>
+            <value>
+                <designationCategory>Ship</designationCategory>
+            </value>
+        </Operation>
+        <Operation Class="PatchOperationReplace">
+            <xpath>Defs/TerrainDef[defName="SoilShip"]/designationCategory</xpath>
+            <value>
+                <designationCategory>Ship</designationCategory>
+            </value>
+        </Operation>
+        <Operation Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="HullFoamWall"]/designationCategory</xpath>
+            <value>
+                <designationCategory>Ship</designationCategory>
+            </value>
+        </Operation>
+        <Operation Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="ShipHullfoamTile"]/designationCategory</xpath>
+            <value>
+                <designationCategory>Ship</designationCategory>
+            </value>
+        </Operation>
+        <Operation Class="PatchOperationReplace">
+            <xpath>Defs/ResearchProjectDef[defName="Holodeck_Basic"]/techLevel</xpath>
+            <value>
+                <techLevel>Spacer</techLevel>
+            </value>
+        </Operation>
+</Patch>

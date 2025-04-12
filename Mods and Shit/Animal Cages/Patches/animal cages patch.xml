@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>       
+
+                <Operation Class="PatchOperationConditional">
+                <success>Always</success>
+                    <xpath>/Defs/ThingDef[@Name="ZzZomboRW_AnimalCage_Cage_Base"]/researchPrerequisites</xpath>
+                    <match Class="PatchOperationSequence">
+                        <operations>
+                            <li Class="PatchOperationReplace">
+                                <xpath>/Defs/ThingDef[@Name="ZzZomboRW_AnimalCage_Cage_Base"]/researchPrerequisites</xpath>
+                                <value>
+                                    <researchPrerequisites>
+                                        <li>Ferny_AnimalCages</li>
+                                    </researchPrerequisites>
+                                </value>
+                            </li>
+                        </operations>
+                    </match>
+                    <nomatch Class="PatchOperationSequence">
+                        <operations>
+                            <li Class="PatchOperationAdd">
+                                <xpath>/Defs/ThingDef[@Name="ZzZomboRW_AnimalCage_Cage_Base"]</xpath>
+                                <value>
+                                    <researchPrerequisites>
+                                        <li>Ferny_AnimalCages</li>
+                                    </researchPrerequisites>
+                                </value>
+                            </li>
+                        </operations>
+                    </nomatch>
+                </Operation>
+
+</Patch>
