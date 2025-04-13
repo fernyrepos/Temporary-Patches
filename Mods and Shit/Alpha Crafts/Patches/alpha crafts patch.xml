@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			<!-- Add to tribals -->
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraderKindDef[defName="Base_Neolithic_Standard" or
+					defName="Caravan_Neolithic_BulkGoods" or
+					defName="Caravan_Neolithic_ShamanMerchant"]/stockGenerators</xpath>
+				<value>
+					<li Class="AlphaCrafts.StockGenerator_BuyCategory">
+						<category>AC_ArtisanProducts</category>
+					</li>
+				</value>
+			</li>
+
+			<!-- Add to medieval factions -->
+			<li MayRequire="Dankpyon.Medieval.Overhaul" Class="PatchOperationAdd">
+				<xpath>/Defs/TraderKindDef[defName="DankPyon_Base_Medieval_Standard" or
+					defName="DankPyon_Caravan_Medieval_BulkGoodsMerchant" or
+					defName="DankPyon_Caravan_Medieval_BulkGoodsMerchant_Soren" or
+					defName="DankPyon_Visitor_Medieval_Standard"]/stockGenerators</xpath>
+				<value>
+					<li Class="AlphaCrafts.StockGenerator_BuyCategory">
+						<category>AC_ArtisanProducts</category>
+					</li>
+				</value>
+			</li>
+
+			<!-- Add to roxmont faction -->
+			<li MayRequire="DankPyon.Medieval.Overhaul.House.Roxmont" Class="PatchOperationAdd">
+				<xpath>/Defs/TraderKindDef[defName="DankPyon_Base_Medieval_Roxmont" or
+					defName="DankPyon_Caravan_Medieval_BulkGoodsMerchant_Roxmont" or
+					defName="DankPyon_Visitor_Medieval_Roxmont"]/stockGenerators</xpath>
+				<value>
+					<li Class="AlphaCrafts.StockGenerator_BuyCategory">
+						<category>AC_ArtisanProducts</category>
+					</li>
+				</value>
+			</li>
+
+			<!-- Add to elders faction -->
+			<li MayRequire="xrushha.EldersFaction" Class="PatchOperationAdd">
+				<xpath>/Defs/TraderKindDef[defName="Base_Elders_Standard" or
+					defName="Caravan_Elders_BulkGoods" or defName="Caravan_Elders_ShamanMerchant" or
+					defName="Visitor_Elders_Standard"]/stockGenerators</xpath>
+				<value>
+					<li Class="AlphaCrafts.StockGenerator_BuyCategory">
+						<category>AC_ArtisanProducts</category>
+					</li>
+				</value>
+			</li>
+
+			<!-- Add to VE classical factions -->
+			<li MayRequire="OskarPotocki.VFE.Classical" Class="PatchOperationAdd">
+				<xpath>/Defs/TraderKindDef[defName="VFEC_Base_Republic_Standard" or
+					defName="VFEC_Caravan_Republic_BulkGoods"]/stockGenerators</xpath>
+				<value>
+					<li Class="AlphaCrafts.StockGenerator_BuyCategory">
+						<category>AC_ArtisanProducts</category>
+					</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>
