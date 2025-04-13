@@ -51,6 +51,17 @@
 					</li>
 				</value>
 			</li>
+
+			<!-- Add to VE classical factions -->
+			<li MayRequire="OskarPotocki.VFE.Classical" Class="PatchOperationAdd">
+				<xpath>/Defs/TraderKindDef[defName="VFEC_Base_Republic_Standard" or
+					defName="VFEC_Caravan_Republic_BulkGoods"]/stockGenerators</xpath>
+				<value>
+					<li Class="AlphaCrafts.StockGenerator_BuyCategory">
+						<category>AC_ArtisanProducts</category>
+					</li>
+				</value>
+			</li>
 		</operations>
 	</Operation>
 </Patch>
