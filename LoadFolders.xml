@@ -13,5 +13,6 @@
     <li IfModActive="kentington.saveourship2">Mods and Shit/SOS2</li>
     <li IfModActive="VE.VanillaChristmasExpanded">Mods and Shit/VE Christmas</li>
     <li IfModActive="oskarpotocki.vanillavehiclesexpanded">Mods and Shit/VE Vehicles</li>
+    <li IfModActive="sarg.alphacrafts">Mods and Shit/Alpha Crafts</li>
   </v1.5>
 </loadFolders>
