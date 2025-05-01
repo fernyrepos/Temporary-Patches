@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>       
+
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="TribalCCTV"]/label</xpath>
+                    <value>
+                        <label>Animal warning system</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="TribalCCTV"]/description</xpath>
+                    <value>
+                        <description>A trained parrot in a nest, capable of breaching the fog of war and allowing you to see threats your colonists don't.</description>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="IndustrialCCTV"]/label</xpath>
+                    <value>
+                        <label>Camera surveillance</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="IndustrialCCTV"]/description</xpath>
+                    <value>
+                        <description>An automated camera to keep sight of an area, capable of breaching the fog of war and allowing you to see threats your colonists don't.</description>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="SpacerCCTV"]/label</xpath>
+                    <value>
+                        <label>Advanced surveillance</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="SpacerCCTV"]/description</xpath>
+                    <value>
+                        <description>An advanced system to keep sight of an area, capable of breaching the fog of war and allowing you to see threats your colonists don't.</description>
+                    </value>
+                </Operation>
+
+</Patch>
