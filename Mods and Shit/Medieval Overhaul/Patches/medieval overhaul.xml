@@ -1,6 +1,44 @@
 <?xml version="1.0" encoding="utf-8" ?>          
 <Patch>       
 
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreeOak"]/plant/harvestYield</xpath>
+        <value>
+            <harvestYield>20</harvestYield>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreeTeak"]/plant/harvestYield</xpath>
+        <value>
+            <harvestYield>30</harvestYield>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreePalm"]/plant/harvestYield</xpath>
+        <value>
+            <harvestYield>9</harvestYield>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreeBamboo"]/plant/harvestYield</xpath>
+        <value>
+            <harvestYield>5</harvestYield>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreeDrago"]/plant/harvestYield</xpath>
+        <value>
+            <harvestYield>10</harvestYield>
+        </value>
+    </Operation>
+
+
+
                         <!-- Burn Pit -->
 	<Operation Class="PatchOperationFindMod">
 		<mods>
