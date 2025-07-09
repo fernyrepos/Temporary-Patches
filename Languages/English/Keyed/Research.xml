@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<ResearchPapers>Knowledge papers</ResearchPapers>
+
+	<ResearchPaper>Knowledge</ResearchPaper>
+	<ResearchLost>Lost research: {0}</ResearchLost>
+	<ResearchLostDesc>Lost knowledge of the following research project: {0}.</ResearchLostDesc>
+
+</LanguageData>

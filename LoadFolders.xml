@@ -15,5 +15,6 @@
     <li IfModActive="oskarpotocki.vanillavehiclesexpanded">Mods and Shit/VE Vehicles</li>
     <li IfModActive="sarg.alphacrafts">Mods and Shit/Alpha Crafts</li>
     <li IfModActive="krkr.rule56">Mods and Shit/CAI</li>
+    <li IfModActive="chaoticenrico.researchpapers">Mods and Shit/Research Papers</li>
   </v1.5>
 </loadFolders>
