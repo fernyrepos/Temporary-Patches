@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+        <Operation Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="AB_ExoticDoor"]</xpath>
+            <value>
+                <designationCategory></designationCategory>
+            </value>
+        </Operation>
+        <Operation Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="AB_ExoticAutoDoor"]</xpath>
+            <value>
+                <designationCategory></designationCategory>
+            </value>
+        </Operation>
+        <Operation Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="AB_ExoticWall"]</xpath>
+            <value>
+                <designationCategory></designationCategory>
+            </value>
+        </Operation>
+        <Operation Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="AB_ExoticColumn"]</xpath>
+            <value>
+                <designationCategory></designationCategory>
+            </value>
+        </Operation>
+</Patch>
