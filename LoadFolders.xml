@@ -17,5 +17,6 @@
     <li IfModActive="krkr.rule56">Mods and Shit/CAI</li>
     <li IfModActive="chaoticenrico.researchpapers">Mods and Shit/Research Papers</li>
     <li IfModActive="sarg.alphabiomes">Mods and Shit/Alpha Biomes</li>
+    <li IfModActive="esvn.pauseothersettlementssimulation">Mods and Shit/Pause Other Settlements Simulation</li>
   </v1.5>
 </loadFolders>

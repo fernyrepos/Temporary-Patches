@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PauseOtherSettlementsSimulation>Pause other settlements simulation</PauseOtherSettlementsSimulation>
+  <PauseOtherSettlements_Tooltip>If enabled, other settlements (non-current map and non-pocket maps) will be paused. Disabling this will allow all other settlements to simulate.</PauseOtherSettlements_Tooltip>
+  <PauseNewSettlementsByDefault_Label>Pause new settlements by default</PauseNewSettlementsByDefault_Label>
+  <PauseNewSettlementsByDefault_Tooltip>If checked, any newly created settlement will automatically be set to 'paused'.</PauseNewSettlementsByDefault_Tooltip>
+  <PauseNewAnomalyLayersByDefault_Label>Pause new pocket maps by default</PauseNewAnomalyLayersByDefault_Label>
+  <PauseNewAnomalyLayersByDefault_Tooltip>If checked, newly discovered pocket maps will be paused by default.</PauseNewAnomalyLayersByDefault_Tooltip>
+  <PauseAnomalyLayersWhenAway_Label>Pause pocket maps when away</PauseAnomalyLayersWhenAway_Label>
+  <PauseAnomalyLayersWhenAway_Tooltip>If checked, pocket maps will be automatically paused when you are not viewing their parent settlement.\n*This feature has a small potential performance impact.</PauseAnomalyLayersWhenAway_Tooltip>
+
+  <!-- Pause Tab -->
+  <PauseTab_Title>Pause settlements</PauseTab_Title>
+  <PauseTab_NoSettlements>No player settlements found.</PauseTab_NoSettlements>
+  <PauseTab_SettlementTooltip>Check to pause simulation for this settlement.</PauseTab_SettlementTooltip>
+  <CurrentMap>Current</CurrentMap>
+  <RenameSettlement>Rename settlement</RenameSettlement>
+  <PauseTab_CurrentSettlementEditableTooltip>You can preset the pause state for this settlement. However, the currently viewed map will always be simulated regardless of this setting.</PauseTab_CurrentSettlementEditableTooltip>
+  <PauseTab_AnomalyLayerTooltip>Check to pause simulation for this pocket map.</PauseTab_AnomalyLayerTooltip>
+</LanguageData>
