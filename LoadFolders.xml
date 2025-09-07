@@ -18,5 +18,10 @@
     <li IfModActive="chaoticenrico.researchpapers">Mods and Shit/Research Papers</li>
     <li IfModActive="sarg.alphabiomes">Mods and Shit/Alpha Biomes</li>
     <li IfModActive="esvn.pauseothersettlementssimulation">Mods and Shit/Pause Other Settlements Simulation</li>
+    <li IfModActive="vpe.gravcaster.sentinel">Mods and Shit/VPE Gravcaster</li>
+    <li IfModActive="vpe.aeromancer.sentinel">Mods and Shit/VPE Aeromancer</li>
+    <li IfModActive="vpe.hydromancer.sentinel">Mods and Shit/VPE Hydromancer</li>
+    <li IfModActive="vpe.fleshshaper.sentinel">Mods and Shit/VPE Fleshshaper</li>
+    <li IfModActive="co.uk.epicguru.meleeanimation">Mods and Shit/Melee Animations</li>
   </v1.5>
 </loadFolders>

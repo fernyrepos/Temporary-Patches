@@ -15,6 +15,9 @@
 		</li>
 	</modDependencies>
 	<description>Temporary random patches.</description>
+	<loadBefore>
+		<li>katsudon.uiretexture</li>
+	</loadBefore>
 	<loadAfter>
 		<li>Ludeon.Rimworld</li>
 		<li>Ludeon.Rimworld.Royalty</li>
@@ -44,5 +47,11 @@
 		<li>chaoticenrico.researchpapers</li>
 		<li>sarg.alphabiomes</li>
 		<li>esvn.pauseothersettlementssimulation</li>
+		<li>vpe.gravcaster.sentinel</li>
+		<li>vpe.aeromancer.sentinel</li>
+		<li>vpe.hydromancer.sentinel</li>
+		<li>vpe.fleshshaper.sentinel</li>
+		<li>co.uk.epicguru.meleeanimation</li>
+		<li>likeafox.haulexplicitly</li>
 	</loadAfter>
 </ModMetaData>
