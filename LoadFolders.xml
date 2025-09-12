@@ -23,5 +23,6 @@
     <li IfModActive="vpe.hydromancer.sentinel">Mods and Shit/VPE Hydromancer</li>
     <li IfModActive="vpe.fleshshaper.sentinel">Mods and Shit/VPE Fleshshaper</li>
     <li IfModActive="co.uk.epicguru.meleeanimation">Mods and Shit/Melee Animations</li>
+    <li IfModActive="bart.bioformmatrix">Mods and Shit/Bioform Matrix</li>
   </v1.5>
 </loadFolders>

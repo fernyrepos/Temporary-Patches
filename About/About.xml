@@ -17,6 +17,7 @@
 	<description>Temporary random patches.</description>
 	<loadBefore>
 		<li>katsudon.uiretexture</li>
+		<li>kapitanoczywisty.minimallightcontrol</li>
 	</loadBefore>
 	<loadAfter>
 		<li>Ludeon.Rimworld</li>
@@ -53,5 +54,7 @@
 		<li>vpe.fleshshaper.sentinel</li>
 		<li>co.uk.epicguru.meleeanimation</li>
 		<li>likeafox.haulexplicitly</li>
+		<li>bart.bioformmatrix</li>
+		<li>sjaandi.realtiltmod</li>
 	</loadAfter>
 </ModMetaData>
