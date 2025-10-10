@@ -1,26 +1,4 @@
 <?xml version="1.0" encoding="utf-8" ?>          
 <Patch>
-        <Operation Class="PatchOperationReplace">
-            <xpath>Defs/ThingDef[defName="ResearchPaper"]/label</xpath>
-            <value>
-                <label>knowledge</label>
-            </value>
-        </Operation>
 
-        <Operation Class="PatchOperationReplace">
-            <xpath>Defs/ThingDef[defName="ResearchPaper"]/description</xpath>
-            <value>
-                <description>Papers containing the completed notes of your full understanding of a topic. Losing it results in a loss of its knowledge.</description>
-            </value>
-        </Operation>
-
-        <Operation Class="PatchOperationReplace">
-            <xpath>Defs/RulePackDef[defName="Namer_ResearchPaper"]/rulePack/rulesStrings</xpath>
-            <value>
-                <rulesStrings>
-                    <li>title->Knowledge of [subject_primary]</li>
-                    <li>title(has_subject_secondary==true)->Knowledge of [subject_primary] and [subject_secondary]</li>
-                </rulesStrings>
-            </value>
-        </Operation>
 </Patch>
