@@ -64,5 +64,29 @@
 		</match>
 	</Operation>
 
+                        <!-- Golems -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Epochs - Golems</li>
+		</mods>
+            <match Class="PatchOperationSequence">
+                <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs</xpath>
+                    <value>
+                    <ReplaceLib.ReplacerDef>
+                        <defName>Clay_Epochs_MedievalOverhaul</defName>
+                        <replacers>
+                            <li>
+                                <replace>DV_Clay</replace>
+                                <with>DankPyon_Clay</with>
+                            </li>
+                        </replacers>
+                    </ReplaceLib.ReplacerDef>
+                    </value>
+                </li>
+                </operations>
+		</match>
+	</Operation>
 
 </Patch>

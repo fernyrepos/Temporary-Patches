@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>       
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="TSF_Bushido_Code"]/techLevel</xpath>
+        <value>
+            <techLevel>Medieval</techLevel>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="TSF_CherryBlossomSowing"]/techLevel</xpath>
+        <value>
+            <techLevel>Medieval</techLevel>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="TSF_Calligraphy"]/techLevel</xpath>
+        <value>
+            <techLevel>Medieval</techLevel>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="TSF_SakeBrewing"]/techLevel</xpath>
+        <value>
+            <techLevel>Medieval</techLevel>
+        </value>
+    </Operation>
+
+
+</Patch>
