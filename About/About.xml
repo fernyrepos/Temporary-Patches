@@ -60,5 +60,6 @@
 		<li>trickity.samurai.faction</li>
 		<li>regrowth.botr.core</li>
 		<li>ferny.progressioncore</li>
+		<li>Lakuna.PrepareModerately</li>
 	</loadAfter>
 </ModMetaData>
