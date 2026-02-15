@@ -6,4 +6,6 @@
                 <Operation Class="PatchOperationRemove">
                     <xpath>Defs/Lakuna.PrepareModerately.Filter.PawnFilterDef[defName="Minimal"]</xpath>
                 </Operation>
+
+
 </Patch>
