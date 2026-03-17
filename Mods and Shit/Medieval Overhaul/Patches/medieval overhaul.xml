@@ -2,6 +2,37 @@
 <Patch>       
 
 
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="DankPyon_RawWood"]/tools</xpath>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="DankPyon_RawWood"]</xpath>
+        <value><comps Inherit="False"></comps></value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="DankPyon_RawWood"]</xpath>
+        <value>
+            <equipmentType Inherit="False"></equipmentType>
+        </value>
+    </Operation>
+
+
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="DankPyon_RawDarkWood"]/tools</xpath>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="DankPyon_RawDarkWood"]</xpath>
+        <value><comps Inherit="False"></comps></value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="DankPyon_RawDarkWood"]</xpath>
+        <value>
+            <equipmentType Inherit="False"></equipmentType>
+        </value>
+    </Operation>
+
+
+
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Plant_TreeOak"]/plant/harvestYield</xpath>
         <value>
