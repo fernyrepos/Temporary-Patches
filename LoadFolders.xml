@@ -24,5 +24,7 @@
     <li IfModActive="bart.bioformmatrix">Mods and Shit/Bioform Matrix</li>
     <li IfModActive="trickity.samurai.faction">Mods and Shit/T Samurai Faction</li>
     <li IfModActive="Lakuna.PrepareModerately">Mods and Shit/Prepare Moderately</li>
+    <li IfModActive="ponpeco.pfkidsroom">Mods and Shit/Ponpeco Furniture Kids Room</li>
+    <li IfModActive="mlie.amnabisflags">Mods and Shit/Amnabi's Flags</li>
   </v1.5>
 </loadFolders>

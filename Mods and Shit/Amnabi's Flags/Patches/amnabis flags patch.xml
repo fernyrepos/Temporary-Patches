@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>       
+
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="Apparel_BannerBeltStyleA"]/recipeMaker</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="Apparel_BannerBeltStyleB"]/recipeMaker</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="Apparel_BannerBeltStyleC"]/recipeMaker</xpath>
+  </Operation>
+
+
+</Patch>
