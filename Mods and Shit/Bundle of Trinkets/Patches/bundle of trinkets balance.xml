@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Bundle of Trinkets</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Seti_Trinket_Antidote"]/description</xpath>
+          <value><description>An antidote for a disease unknown made by a person inflicted with a great curse. When equipped, bitter protection hardens the body against sickness and poison, though wounds knit more slowly.</description></value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Seti_Trinket_Commendation"]/description</xpath>
+          <value><description>A medal given to a soldier long ago, he didn't deserve it, and you don't either. When equipped, borrowed valor lends strength and speed in battle, while guilt gnaws at the wearer's composure.</description></value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Seti_Trinket_Compass"]/description</xpath>
+          <value><description>A golden compass always pointing to what the person desires most. When equipped, desire hastens every journey and sweetens every bargain, but leaves little patience for honest work.</description></value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Seti_Trinket_Intent"]/description</xpath>
+          <value><description>A twisted little corrupted writhing thing, it begs of you to put it on, it will grant you power, it promises, it wouldn't lie, would it? When equipped, bloodlust grants savage melee prowess at the cost of frailty, restraint, marksmanship, and years of life.</description></value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Seti_Trinket_Experiment"]/description</xpath>
+          <value><description>One of the first experiments performed by some psychotic chirugeon long ago, adds a toxic attack. When equipped, its venomous graft grants a toxic strike and some resistance to poison, while quietly sickening its host.</description></value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Seti_Trinket_WolfFang"]/description</xpath>
+          <value><description>A fang from a now extinct species of wolf, it somehow still drips blood, and animals fear it's command. When equipped, beasts heed the scent of an ancient alpha, but the wearer's own blood runs eager to escape.</description></value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Seti_Trinket_Flower"]/description</xpath>
+          <value><description>A flower bringing with it the memories of a normal, familiar life, before it got the way it is now, it wishes you felt better again, sadly, reality gets in the way. When equipped, gentle memories soothe the mind and nurture living things, while dulling the will to violence.</description></value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Seti_Trinket_IconofLight"]/description</xpath>
+          <value><description>This medallion invokes trust and joy in those close to it, but not for the wearer, who will feel sadness instead. When equipped, its borrowed radiance inspires trust and authority, though vice repels it and its bearer shoulders the sorrow alone.</description></value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Seti_Trinket_Locket"]/description</xpath>
+          <value><description>A locket once held by a very accurate highwayman, now, it chooses to torment you. When equipped, torment sharpens the eye and quickens the trigger, but burdens every step and frays the mind.</description></value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Seti_Trinket_Pride"]/description</xpath>
+          <value><description>An eye of a great soldier, you will pay the same price in time. When equipped, pride steadies the duelist's hand and defies incoming blows, while blinding them to danger, distance, and humility.</description></value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Seti_Trinket_RoyalSummons"]/description</xpath>
+          <value><description>A document written by an unknown monarch to a jester, nowadays, it keeps writing tasks on itself, with the same handwriting as the jester, mayhaps it's a joke? When equipped, impossible orders drive swift and tireless labor, draining rest, joy, and eventually the spine itself.</description></value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Seti_Trinket_Sphere"]/description</xpath>
+          <value><description>A... device, or perhaps an organ, from an alien being only ever referred to as a shambler, it glimmers. When equipped, alien sight opens the mind to knowledge and psychic power, while showing it far more than sanity permits.</description></value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Seti_Trinket_Temptation"]/description</xpath>
+          <value><description>A thing? of twisted metal that corrodes and erodes everything it touches, it wants you to touch it, reach out into it. When equipped, its whispers awaken immense psychic potential while devouring contentment, composure, and the wearer's allotted years.</description></value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Seti_Trinket_MedTextBook"]/description</xpath>
+          <value><description>This textbook is filled with medical knowledge, both common and esoteric, something about it brings great sadness and selflessness to the person reading it. When equipped, forbidden anatomy guides brilliant treatment and study, while the reader neglects their own pace, health, and recovery.</description></value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Seti_Trinket_Ward"]/description</xpath>
+          <value><description>A product of some ritual by a cult, the soul left in the ward will try to prevent the death of the bearer. When equipped, the captive soul turns aside harm and hastens recovery, but weighs down the body and weakens its blows.</description></value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Seti_Trinket_Watch"]/description</xpath>
+          <value><description>A golden watch that was a property of some great ancestor long ago, it's always running way too fast. When equipped, stolen seconds quicken nearly every deed and recovery, while aging the bearer and leaving mind and manners behind.</description></value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Seti_Trinket_Antidote"]/equippedStatOffsets</xpath>
+          <value>
+            <equippedStatOffsets>
+              <ToxicResistance>0.35</ToxicResistance>
+              <ImmunityGainSpeed>0.20</ImmunityGainSpeed>
+              <ToxicEnvironmentResistance>0.35</ToxicEnvironmentResistance>
+              <InjuryHealingFactor>-0.10</InjuryHealingFactor>
+            </equippedStatOffsets>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Seti_Trinket_Commendation"]/equippedStatOffsets</xpath>
+          <value>
+            <equippedStatOffsets>
+              <MeleeDamageFactor>0.20</MeleeDamageFactor>
+              <MeleeCooldownFactor>-0.10</MeleeCooldownFactor>
+              <MentalBreakThreshold>0.15</MentalBreakThreshold>
+            </equippedStatOffsets>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Seti_Trinket_Compass"]/equippedStatOffsets</xpath>
+          <value>
+            <equippedStatOffsets>
+              <MoveSpeed>0.15</MoveSpeed>
+              <CaravanBonusSpeedFactor>0.25</CaravanBonusSpeedFactor>
+              <NegotiationAbility>0.15</NegotiationAbility>
+              <WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
+            </equippedStatOffsets>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Seti_Trinket_Intent"]/equippedStatOffsets</xpath>
+          <value>
+            <equippedStatOffsets>
+              <LifespanFactor>-0.25</LifespanFactor>
+              <MeleeDamageFactor>0.35</MeleeDamageFactor>
+              <MeleeCooldownFactor>-0.20</MeleeCooldownFactor>
+              <MeleeDodgeChance>-0.15</MeleeDodgeChance>
+              <ShootingAccuracyPawn>-8</ShootingAccuracyPawn>
+              <IncomingDamageFactor>0.15</IncomingDamageFactor>
+              <MentalBreakThreshold>0.10</MentalBreakThreshold>
+            </equippedStatOffsets>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/HediffDef[defName="Seti_Trinket_Intent"]/stages/li/mentalStateGivers/li/mtbDays</xpath>
+          <value><mtbDays>45</mtbDays></value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/HediffDef[defName="Seti_Trinket_Intent"]/stages/li/socialFightChanceFactor</xpath>
+          <value><socialFightChanceFactor>4</socialFightChanceFactor></value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Seti_Trinket_Experiment"]/equippedStatOffsets</xpath>
+          <value>
+            <equippedStatOffsets>
+              <ToxicResistance>0.15</ToxicResistance>
+              <ImmunityGainSpeed>-0.15</ImmunityGainSpeed>
+              <ToxicEnvironmentResistance>0.15</ToxicEnvironmentResistance>
+              <InjuryHealingFactor>-0.10</InjuryHealingFactor>
+            </equippedStatOffsets>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/HediffDef[defName="Seti_Trinket_Experiment"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools/li/power</xpath>
+          <value><power>8</power></value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/HediffDef[defName="Seti_Trinket_Experiment"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools/li/cooldownTime</xpath>
+          <value><cooldownTime>2.2</cooldownTime></value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/HediffDef[defName="Seti_Trinket_Experiment"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools/li/surpriseAttack/extraMeleeDamages/li/amount</xpath>
+          <value><amount>6</amount></value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Seti_Trinket_WolfFang"]/equippedStatOffsets</xpath>
+          <value>
+            <equippedStatOffsets>
+              <AnimalGatherSpeed>0.30</AnimalGatherSpeed>
+              <AnimalGatherYield>0.20</AnimalGatherYield>
+              <TameAnimalChance>0.20</TameAnimalChance>
+              <TrainAnimalChance>0.20</TrainAnimalChance>
+            </equippedStatOffsets>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/HediffDef[defName="Seti_Trinket_WolfFang"]/stages/li/totalBleedFactor</xpath>
+          <value><totalBleedFactor>1.75</totalBleedFactor></value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Seti_Trinket_Flower"]/equippedStatOffsets</xpath>
+          <value>
+            <equippedStatOffsets>
+              <PlantWorkSpeed>0.12</PlantWorkSpeed>
+              <PlantHarvestYield>0.12</PlantHarvestYield>
+              <MeleeDamageFactor>-0.20</MeleeDamageFactor>
+              <TrainAnimalChance>0.15</TrainAnimalChance>
+              <MentalBreakThreshold>-0.15</MentalBreakThreshold>
+            </equippedStatOffsets>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThoughtDef[defName="Seti_Trinket_Flower"]/stages/li/baseMoodEffect</xpath>
+          <value><baseMoodEffect>5</baseMoodEffect></value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Seti_Trinket_IconofLight"]/equippedStatOffsets</xpath>
+          <value>
+            <equippedStatOffsets>
+              <NegotiationAbility>0.20</NegotiationAbility>
+              <ArrestSuccessChance>0.25</ArrestSuccessChance>
+              <DrugSellPriceImprovement>-0.50</DrugSellPriceImprovement>
+              <SocialImpact>0.20</SocialImpact>
+              <JoyFallRateFactor>0.15</JoyFallRateFactor>
+            </equippedStatOffsets>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThoughtDef[defName="Seti_Trinket_IconofLight"]/stages/li/baseMoodEffect</xpath>
+          <value><baseMoodEffect>-7</baseMoodEffect></value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Seti_Trinket_Locket"]/equippedStatOffsets</xpath>
+          <value>
+            <equippedStatOffsets>
+              <RangedCooldownFactor>-0.20</RangedCooldownFactor>
+              <ShootingAccuracyPawn>1.5</ShootingAccuracyPawn>
+              <MentalBreakThreshold>0.20</MentalBreakThreshold>
+              <MoveSpeed>-0.10</MoveSpeed>
+            </equippedStatOffsets>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/HediffDef[defName="Seti_Trinket_Locket"]/stages/li/mentalStateGivers/li/mtbDays</xpath>
+          <value><mtbDays>60</mtbDays></value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Seti_Trinket_Pride"]/equippedStatOffsets</xpath>
+          <value>
+            <equippedStatOffsets>
+              <IncomingDamageFactor>-0.12</IncomingDamageFactor>
+              <MeleeCooldownFactor>-0.15</MeleeCooldownFactor>
+              <MeleeHitChance>1.5</MeleeHitChance>
+              <MeleeDodgeChance>-0.10</MeleeDodgeChance>
+              <ShootingAccuracyPawn>-2</ShootingAccuracyPawn>
+            </equippedStatOffsets>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThoughtDef[defName="Seti_Trinket_Pride"]/stages/li/baseMoodEffect</xpath>
+          <value><baseMoodEffect>-8</baseMoodEffect></value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Seti_Trinket_RoyalSummons"]/equippedStatOffsets</xpath>
+          <value>
+            <equippedStatOffsets>
+              <MoveSpeed>0.10</MoveSpeed>
+              <WorkSpeedGlobal>0.25</WorkSpeedGlobal>
+              <RestFallRateFactor>0.45</RestFallRateFactor>
+              <JoyFallRateFactor>0.20</JoyFallRateFactor>
+            </equippedStatOffsets>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/HediffDef[defName="Seti_Trinket_RoyalSummons"]/stages/li/blocksSleeping</xpath>
+          <value><blocksSleeping>false</blocksSleeping></value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Seti_Trinket_Sphere"]/equippedStatOffsets</xpath>
+          <value>
+            <equippedStatOffsets>
+              <PsychicSensitivity>0.50</PsychicSensitivity>
+              <MeditationFocusGain MayRequire="Ludeon.RimWorld.Royalty">0.25</MeditationFocusGain>
+              <PsychicEntropyMax MayRequire="Ludeon.RimWorld.Royalty">25</PsychicEntropyMax>
+              <PsychicEntropyRecoveryRate MayRequire="Ludeon.RimWorld.Royalty">0.08</PsychicEntropyRecoveryRate>
+              <MentalBreakThreshold>0.25</MentalBreakThreshold>
+              <ResearchSpeed>0.20</ResearchSpeed>
+            </equippedStatOffsets>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Seti_Trinket_Temptation"]/equippedStatOffsets</xpath>
+          <value>
+            <equippedStatOffsets>
+              <LifespanFactor>-0.35</LifespanFactor>
+              <PsychicSensitivity>1</PsychicSensitivity>
+              <MeditationFocusGain MayRequire="Ludeon.RimWorld.Royalty">0.15</MeditationFocusGain>
+              <JoyFallRateFactor>0.25</JoyFallRateFactor>
+              <MentalBreakThreshold>0.15</MentalBreakThreshold>
+            </equippedStatOffsets>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Seti_Trinket_MedTextBook"]/equippedStatOffsets</xpath>
+          <value>
+            <equippedStatOffsets>
+              <InjuryHealingFactor>-0.15</InjuryHealingFactor>
+              <ImmunityGainSpeed>-0.10</ImmunityGainSpeed>
+              <MedicalTendSpeed>0.20</MedicalTendSpeed>
+              <MedicalOperationSpeed>0.10</MedicalOperationSpeed>
+              <MedicalSurgerySuccessChance>0.12</MedicalSurgerySuccessChance>
+              <GlobalLearningFactor>0.10</GlobalLearningFactor>
+              <MedicalTendQuality>0.18</MedicalTendQuality>
+              <MoveSpeed>-0.10</MoveSpeed>
+            </equippedStatOffsets>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Seti_Trinket_Ward"]/equippedStatOffsets</xpath>
+          <value>
+            <equippedStatOffsets>
+              <InjuryHealingFactor>0.20</InjuryHealingFactor>
+              <ImmunityGainSpeed>0.20</ImmunityGainSpeed>
+              <MeleeDamageFactor>-0.15</MeleeDamageFactor>
+              <MeleeDodgeChance>0.10</MeleeDodgeChance>
+              <IncomingDamageFactor>-0.12</IncomingDamageFactor>
+              <MoveSpeed>-0.10</MoveSpeed>
+            </equippedStatOffsets>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Seti_Trinket_Watch"]/equippedStatOffsets</xpath>
+          <value>
+            <equippedStatOffsets>
+              <MoveSpeed>0.20</MoveSpeed>
+              <CaravanBonusSpeedFactor>0.20</CaravanBonusSpeedFactor>
+              <WorkSpeedGlobal>0.20</WorkSpeedGlobal>
+              <LifespanFactor>-0.35</LifespanFactor>
+              <RestFallRateFactor>0.35</RestFallRateFactor>
+              <ResearchSpeed>0.15</ResearchSpeed>
+              <CrawlSpeed>0.20</CrawlSpeed>
+              <RestRateMultiplier>0.15</RestRateMultiplier>
+              <EatingSpeed>0.20</EatingSpeed>
+              <ImmunityGainSpeed>0.15</ImmunityGainSpeed>
+              <InjuryHealingFactor>0.15</InjuryHealingFactor>
+              <NegotiationAbility>-0.20</NegotiationAbility>
+              <SocialImpact>-0.20</SocialImpact>
+              <MeleeCooldownFactor>-0.15</MeleeCooldownFactor>
+              <RangedCooldownFactor>-0.15</RangedCooldownFactor>
+              <MentalBreakThreshold>0.10</MentalBreakThreshold>
+            </equippedStatOffsets>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

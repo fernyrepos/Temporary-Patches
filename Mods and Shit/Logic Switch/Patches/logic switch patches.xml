@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>       
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Temperature Gauge (Continued)</li>
+		</mods>
+            <match Class="PatchOperationSequence">
+                <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs</xpath>
+                    <value>
+                    <ReplaceLib.ReplacerDef>
+                        <defName>Temperature_LogicSwitchandTemperatureGauge</defName>
+                        <replacers>
+                            <li>
+                                <replace>TermSensor</replace>
+                                <with>TemperatureSwitch</with>
+                            </li>
+                        </replacers>
+                    </ReplaceLib.ReplacerDef>
+                    </value>
+                </li>
+                </operations>
+		</match>
+	</Operation>
+
+</Patch>

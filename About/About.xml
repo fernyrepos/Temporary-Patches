@@ -18,6 +18,7 @@
 	<loadBefore>
 		<li>katsudon.uiretexture</li>
 		<li>kapitanoczywisty.minimallightcontrol</li>
+		<li>Yy.CapesandArmor</li> 
 	</loadBefore>
 	<loadAfter>
 		<li>Ludeon.Rimworld</li>
@@ -62,5 +63,8 @@
 		<li>ferny.progressioncore</li>
 		<li>Lakuna.PrepareModerately</li>
 		<li>ponpeco.pfkidsroom</li>
+		<li>mlie.temperaturegauge</li>
+		<li>borsh.logicswitches</li>
+		<li>Seti.Medieval.Trinkets</li>
 	</loadAfter>
 </ModMetaData>

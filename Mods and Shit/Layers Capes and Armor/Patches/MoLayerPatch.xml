@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_Hood"]/apparel[not(layers)]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_Hood"]/apparel</xpath>
+      <value>
+        <layers>
+          <li>Overhead</li>
+        </layers>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_RedBandana"]/apparel[not(layers)]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_RedBandana"]/apparel</xpath>
+      <value>
+        <layers>
+          <li>Overhead</li>
+        </layers>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_LindwurmCloak"]/apparel[not(layers)]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="DankPyon_Apparel_LindwurmCloak"]/apparel</xpath>
+      <value>
+        <layers>
+          <li>DankPyon_ShellAttachment</li>
+        </layers>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_FurCloak"]/apparel[not(layers)]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="DankPyon_Apparel_FurCloak"]/apparel</xpath>
+      <value>
+        <layers>
+          <li>DankPyon_ShellAttachment</li>
+        </layers>
+      </value>
+    </match>
+  </Operation>
+
+</Patch>
