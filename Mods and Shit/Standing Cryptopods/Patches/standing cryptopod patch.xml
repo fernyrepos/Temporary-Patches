@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>       
+
+<!-- <Operation Class="PatchOperationFindMod">
+
+	<mods>
+		<li>Altered Carbon 2: ReSleeved</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/ThingDef[defName="StandingCryptosleepCasket"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="StandingCryptosleepCasket"]/comps</xpath>
+					<value>
+						<li Class="CompProperties_AffectedByFacilities">
+							<linkableFacilities>
+								<li>AC_NeuralMatrix</li>
+							</linkableFacilities>
+						</li>
+					</value>
+				</nomatch>
+				<match Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="StandingCryptosleepCasket"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+					<value>
+						<li>AC_NeuralMatrix</li>
+					</value>
+				</match>
+			</li>
+			<!-- ================================ Cryptosleep casket description hyperlinks ====================== -->
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/ThingDef[defName="StandingCryptosleepCasket"]/descriptionHyperlinks</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="StandingCryptosleepCasket"]</xpath>
+					<value>
+						<descriptionHyperlinks>
+							<ThingDef>AC_NeuralMatrix</ThingDef>
+						</descriptionHyperlinks>
+					</value>
+				</nomatch>
+				<match Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="StandingCryptosleepCasket"]/descriptionHyperlinks</xpath>
+					<value>
+						<ThingDef>AC_NeuralMatrix</ThingDef>
+					</value>
+				</match>
+			</li>
+		</operations>
+	</match>
+
+</Operation> -->
+
+</Patch>

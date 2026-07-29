@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Medieval Overhaul</li>
+    </mods>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/ThingDef[defName="FEB_Ferrohorn"]/comps/li[@Class="VEF.AnimalBehaviours.CompProperties_AnimalProduct"]/resourceDef[text()="Steel"]</xpath>
+      <value>
+        <resourceDef>DankPyon_IronOre</resourceDef>
+      </value>
+    </match>
+  </Operation>
+</Patch>
