@@ -27,7 +27,6 @@
 					</value>
 				</match>
 			</li>
-			<!-- ================================ Cryptosleep casket description hyperlinks ====================== -->
 			<li Class="PatchOperationConditional">
 				<xpath>/Defs/ThingDef[defName="StandingCryptosleepCasket"]/descriptionHyperlinks</xpath>
 				<nomatch Class="PatchOperationAdd">

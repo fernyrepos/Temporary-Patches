@@ -30,6 +30,7 @@
     <li IfModActive="Yy.CapesandArmor">Mods and Shit/Layers Capes and Armor</li>
     <li IfModActive="mlie.amnabisflags">Mods and Shit/Amnabi's Flags</li>
     <li IfModActive="feb.biopunklivestock">Mods and Shit/FEBs Biopunk Livestock</li>
+    <li IfModActive="alma.carbonitecasket">Mods and Shit/Carbonite Casket</li>
   </v1.5>
   <v1.6>
     <li>/</li>
@@ -64,5 +65,6 @@
     <li IfModActive="Seti.Medieval.Trinkets">Mods and Shit/Bundle of Trinkets</li>
     <li IfModActive="fluffytowels.standingcryptosleepcasket">Mods and Shit/Standing Cryptopods</li>
     <li IfModActive="feb.biopunklivestock">Mods and Shit/FEBs Biopunk Livestock</li>
+    <li IfModActive="alma.carbonitecasket">Mods and Shit/Carbonite Casket</li>
   </v1.6>
 </loadFolders>
