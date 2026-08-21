@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="USH_NeuroclearConsole"]/comps/li[@Class="USH_GE.CompProperties_NeuroclearConsole"]/fuelConsumption[text()="1.5"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/ThingDef[defName="USH_NeuroclearConsole"]/comps/li[@Class="USH_GE.CompProperties_NeuroclearConsole"]/fuelConsumption[text()="1.5"]</xpath>
+      <value>
+        <fuelConsumption>1</fuelConsumption>
+      </value>
+    </match>
+  </Operation>
+
+</Patch>

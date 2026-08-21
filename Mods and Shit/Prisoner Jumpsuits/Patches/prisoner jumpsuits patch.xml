@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li MayRequire="ludeon.rimworld.ideology" Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[@Name="OCARINA_PrisonerJumpsuitBase"]/relicChance</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[@Name="OCARINA_PrisonerJumpsuitBase"]/relicChance</xpath>
+          <value>
+            <relicChance>0</relicChance>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[@Name="OCARINA_PrisonerJumpsuitBase"]</xpath>
+          <value>
+            <relicChance>0</relicChance>
+          </value>
+        </nomatch>
+      </li>
+    </operations>
+  </Operation>
+
+</Patch>

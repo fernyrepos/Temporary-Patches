@@ -38,6 +38,11 @@
     <li IfModActive="orion.therapy">Mods and Shit/Therapy</li>
     <li IfModActive="biomesteam.biomesfossils">Mods and Shit/Biomes Fossils</li>
     <li IfModActive="oskarpotocki.vfe.tribals">Mods and Shit/VFE Tribals</li>
+    <li IfModActive="linnun.linkablegroups">Mods and Shit/Linkable Groups</li>
+    <li IfModActive="lts.i">Mods and Shit/Integrated Implants</li>
+    <li IfModActive="vanillaexpanded.vfefactory">Mods and Shit/VFE Factory</li>
+    <li IfModActive="ushanka.glittertechexpansion">Mods and Shit/Ushankas Glittertech Expansion</li>
+    <li IfModActive="ocarina.prisonerjumpsuits">Mods and Shit/Prisoner Jumpsuits</li>
     <li IfModActive="zal.animalcages">Mods and Shit/Animal Cages</li>
     <li IfModActive="xmb.ancienturbanruins.mo">Mods and Shit/Ancient Urban Ruins</li>
     <li IfModActive="dankpyon.medieval.overhaul">Mods and Shit/Medieval Overhaul</li>

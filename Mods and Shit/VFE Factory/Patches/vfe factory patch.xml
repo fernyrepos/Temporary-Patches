@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li MayRequire="wara.toomanymods,trickity.samurai.faction,sarg.alphacrafts" Class="PatchOperationConditional">
+        <xpath>/Defs/PipeSystem.ProcessDef[defName="VFEFactory_MakeSakeFromRice"]/results/li/thing[text()="AC_Sake"]</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/PipeSystem.ProcessDef[defName="VFEFactory_MakeSakeFromRice"]/results/li/thing[text()="AC_Sake"]</xpath>
+          <value>
+            <thing>TSF_Sake</thing>
+          </value>
+        </match>
+      </li>
+    </operations>
+  </Operation>
+
+</Patch>
