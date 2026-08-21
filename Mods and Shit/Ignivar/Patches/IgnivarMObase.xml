@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/FactionDef[defName="Ignivar_Faction"]/pawnGroupMakers/li[kindDef="Settlement"]</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/FactionDef[defName="Ignivar_Faction"]/pawnGroupMakers</xpath>
+      <value>
+        <li>
+          <kindDef>Settlement</kindDef>
+          <options>
+            <Ignivar_Levy>20</Ignivar_Levy>
+            <Ignivar_Footman>25</Ignivar_Footman>
+            <Ignivar_Gunner>15</Ignivar_Gunner>
+            <Ignivar_Knight>30</Ignivar_Knight>
+            <Ignivar_Flamesmith>30</Ignivar_Flamesmith>
+          </options>
+        </li>
+      </value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/FactionDef[defName="Ignivar_Faction"]/modExtensions/li[@Class="KCSG.CustomGenOption"]</xpath>
+    <nomatch Class="PatchOperationAddModExtension">
+      <xpath>Defs/FactionDef[defName="Ignivar_Faction"]</xpath>
+      <value>
+        <li Class="KCSG.CustomGenOption">
+          <preventBridgeable>true</preventBridgeable>
+          <tryFindFreeArea>true</tryFindFreeArea>
+          <fullClear>true</fullClear>
+          <chooseFromlayouts>
+            <li>DankPyon_StartingCastle</li>
+          </chooseFromlayouts>
+        </li>
+      </value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/FactionDef[defName="Ignivar_Exiles"]/pawnGroupMakers/li[kindDef="Settlement"]</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/FactionDef[defName="Ignivar_Exiles"]/pawnGroupMakers</xpath>
+      <value>
+        <li>
+          <kindDef>Settlement</kindDef>
+          <options>
+            <IgnivarExile_Levy>30</IgnivarExile_Levy>
+            <IgnivarExile_Footman>30</IgnivarExile_Footman>
+            <IgnivarExile_Gunner>5</IgnivarExile_Gunner>
+            <IgnivarExile_Knight>15</IgnivarExile_Knight>
+            <IgnivarExile_Flamesmith>10</IgnivarExile_Flamesmith>
+          </options>
+        </li>
+      </value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/FactionDef[defName="Ignivar_Exiles"]/modExtensions/li[@Class="KCSG.CustomGenOption"]</xpath>
+    <nomatch Class="PatchOperationAddModExtension">
+      <xpath>Defs/FactionDef[defName="Ignivar_Exiles"]</xpath>
+      <value>
+        <li Class="KCSG.CustomGenOption">
+          <preventBridgeable>true</preventBridgeable>
+          <tryFindFreeArea>true</tryFindFreeArea>
+          <fullClear>true</fullClear>
+          <chooseFromlayouts>
+            <li>DankPyon_StartingCastle</li>
+          </chooseFromlayouts>
+        </li>
+      </value>
+    </nomatch>
+  </Operation>
+</Patch>
