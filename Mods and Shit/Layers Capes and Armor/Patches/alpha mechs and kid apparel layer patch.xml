@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationConditional" MayRequire="sarg.alphamechs">
+    <xpath>Defs/ThingDef[(defName="AM_MechCommanderHelm" or defName="AM_MechBreakerHelm" or defName="AM_Apparel_ArmorHelmetMechlordHelmet_Prestige" or defName="AM_MechCommanderHelm_Prestige" or defName="AM_PrestigeMechBreakerHelm")]/apparel[not(layers)]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[(defName="AM_MechCommanderHelm" or defName="AM_MechBreakerHelm" or defName="AM_Apparel_ArmorHelmetMechlordHelmet_Prestige" or defName="AM_MechCommanderHelm_Prestige" or defName="AM_PrestigeMechBreakerHelm")]/apparel[not(layers)]</xpath>
+      <value>
+        <layers>
+          <li>Overhead</li>
+        </layers>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional" MayRequire="KidApparelExpanded.Goblins4Lyfe">
+    <xpath>Defs/ThingDef[defName="Apparel_Learnlink"]/apparel[not(layers)]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Apparel_Learnlink"]/apparel[not(layers)]</xpath>
+      <value>
+        <layers>
+          <li>Overhead</li>
+        </layers>
+      </value>
+    </match>
+  </Operation>
+
+</Patch>

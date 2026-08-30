@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li MayRequire="oskarpotocki.vfe.tribals,dankpyon.medieval.overhaul" Class="PatchOperationConditional">
+        <xpath>/Defs/LinkableGroupDef[defName="LinkableGroups_Research"]/affected/li[text()="DankPyon_ResearchingSpot"]</xpath>
+        <match Class="PatchOperationRemove">
+          <xpath>/Defs/LinkableGroupDef[defName="LinkableGroups_Research"]/affected/li[text()="DankPyon_ResearchingSpot"]</xpath>
+        </match>
+      </li>
+    </operations>
+  </Operation>
+
+</Patch>
