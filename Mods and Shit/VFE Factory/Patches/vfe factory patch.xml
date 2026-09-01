@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-  <Operation Class="PatchOperationSequence">
+<!-- commented out until I understand them better -->
+
+  <!-- <Operation Class="PatchOperationSequence">
     <success>Always</success>
     <operations>
       <li MayRequire="wara.toomanymods,trickity.samurai.faction,sarg.alphacrafts" Class="PatchOperationConditional">
@@ -14,6 +16,6 @@
         </match>
       </li>
     </operations>
-  </Operation>
+  </Operation> -->
 
 </Patch>

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-  <Operation Class="PatchOperationConditional">
+
+<!-- commented out until I understand them better -->
+
+  <!-- <Operation Class="PatchOperationConditional">
     <success>Always</success>
     <xpath>/Defs/ThingDef[defName="AM_Entrance_LargeElevator"]/pathCost[text()="0.3"]</xpath>
     <match Class="PatchOperationReplace">
@@ -21,6 +24,6 @@
         <pathCost>0</pathCost>
       </value>
     </match>
-  </Operation>
+  </Operation> -->
 
 </Patch>

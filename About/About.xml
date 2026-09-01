@@ -13,6 +13,11 @@
 			<displayName>ReplaceLib</displayName>
 			<steamWorkshopUrl>steam://url/CommunityFilePage/3417393194</steamWorkshopUrl>
 		</li>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+		</li>
 	</modDependencies>
 	<description>Temporary random patches.</description>
 	<loadBefore>
@@ -80,5 +85,8 @@
 		<li>feb.biopunklivestock</li>
 		<li>Alma.CarboniteCasket</li>
 		<li>hlx.UltratechAlteredCarbon</li>
+		<li>brrainz.harmony</li>
+		<li>NozoMe.MapModeFramework</li>
+		<li>jaeger972.factionterritories</li>
 	</loadAfter>
 </ModMetaData>
