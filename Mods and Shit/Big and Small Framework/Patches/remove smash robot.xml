@@ -9,9 +9,6 @@
         <li Class="PatchOperationRemove">
           <xpath>/Defs/ThingDef/recipes/li[text()="BS_SmashRobot"]</xpath>
         </li>
-        <li Class="PatchOperationRemove">
-          <xpath>/Defs/RecipeDef[defName="BS_SmashRobot"]</xpath>
-        </li>
       </operations>
     </match>
   </Operation>
