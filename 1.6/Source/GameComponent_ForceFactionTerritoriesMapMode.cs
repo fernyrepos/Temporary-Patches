@@ -16,9 +16,12 @@ namespace TemporaryPatches
         private static FieldInfo mapModesField;
         private static FieldInfo currentMapModeField;
         private static MethodInfo requestSwitchMethod;
+        private static PropertyInfo isBusyProperty;
+        private static FieldInfo regeneratingMapModeField;
 
         private bool applied;
         private int nextAttemptTick;
+        private int nextSuppressorCheckTick;
 
         public GameComponent_ForceFactionTerritoriesMapMode(Game game)
         {
@@ -26,12 +29,17 @@ namespace TemporaryPatches
 
         public override void GameComponentUpdate()
         {
-            if (applied || !WorldRendererUtility.WorldRendered)
+            if (!WorldRendererUtility.WorldRendered)
             {
                 return;
             }
             int ticksGame = Find.TickManager?.TicksGame ?? 0;
-            if (ticksGame < nextAttemptTick)
+            if (ticksGame >= nextSuppressorCheckTick)
+            {
+                nextSuppressorCheckTick = ticksGame + RetryIntervalTicks;
+                FactionTerritoriesLabelSuppressor.Recheck();
+            }
+            if (applied || ticksGame < nextAttemptTick)
             {
                 return;
             }
@@ -57,6 +65,11 @@ namespace TemporaryPatches
                 mapModesField = mapModeComponentType.GetField("mapModes", BindingFlags.Public | BindingFlags.Instance);
                 currentMapModeField = mapModeComponentType.GetField("currentMapMode", BindingFlags.Public | BindingFlags.Instance);
                 requestSwitchMethod = mapModeComponentType.GetMethod("RequestMapModeSwitch", BindingFlags.Public | BindingFlags.Instance);
+
+                Type worldRegenHandlerType = GenTypes.GetTypeInAnyAssembly("MapModeFramework.WorldRegenHandler");
+                isBusyProperty = worldRegenHandlerType?.GetProperty("IsBusy", BindingFlags.Public | BindingFlags.Static);
+                regeneratingMapModeField = worldRegenHandlerType?.GetField("regeneratingMapMode", BindingFlags.Public | BindingFlags.Static);
+
                 return instanceField != null && mapModesField != null && requestSwitchMethod != null;
             }
             catch (Exception ex)
@@ -82,6 +95,10 @@ namespace TemporaryPatches
                 if (IsFactionTerritoriesMode(currentMapModeField?.GetValue(instance)))
                 {
                     return true;
+                }
+                if (isBusyProperty != null && (bool)(isBusyProperty.GetValue(null) ?? false))
+                {
+                    return IsFactionTerritoriesMode(regeneratingMapModeField?.GetValue(null));
                 }
                 if (!(mapModesField.GetValue(instance) is IEnumerable mapModes))
                 {

@@ -1,39 +1,7 @@
 <loadFolders>
-  <v1.5>
-    <li>/</li>
-    <li IfModActive="yayoflake.mahjong">Mods and Shit/Mahjong</li>
-    <li IfModActive="orion.therapy">Mods and Shit/Therapy</li>
-    <li IfModActive="biomesteam.biomesfossils">Mods and Shit/Biomes Fossils</li>
-    <li IfModActive="oskarpotocki.vfe.tribals">Mods and Shit/VFE Tribals</li>
-    <li IfModActive="zal.animalcages">Mods and Shit/Animal Cages</li>
-    <li IfModActive="xmb.ancienturbanruins.mo">Mods and Shit/Ancient Urban Ruins</li>
-    <li IfModActive="dankpyon.medieval.overhaul">Mods and Shit/Medieval Overhaul</li>
-    <li IfModActive="kentington.saveourship2">Mods and Shit/SOS2</li>
-    <li IfModActive="VE.VanillaChristmasExpanded">Mods and Shit/VE Christmas</li>
-    <li IfModActive="oskarpotocki.vanillavehiclesexpanded">Mods and Shit/VE Vehicles</li>
-    <li IfModActive="sarg.alphacrafts">Mods and Shit/Alpha Crafts</li>
-    <li IfModActive="krkr.rule56">Mods and Shit/CAI</li>
-    <li IfModActive="chaoticenrico.researchpapers">Mods and Shit/Research Papers</li>
-    <li IfModActive="sarg.alphabiomes">Mods and Shit/Alpha Biomes</li>
-    <li IfModActive="esvn.pauseothersettlementssimulation">Mods and Shit/Pause Other Settlements Simulation</li>
-    <!-- <li IfModActive="vpe.gravcaster.sentinel">Mods and Shit/VPE Gravcaster</li>
-    <li IfModActive="vpe.aeromancer.sentinel">Mods and Shit/VPE Aeromancer</li>
-    <li IfModActive="vpe.hydromancer.sentinel">Mods and Shit/VPE Hydromancer</li>
-    <li IfModActive="vpe.fleshshaper.sentinel">Mods and Shit/VPE Fleshshaper</li> -->
-    <li IfModActive="co.uk.epicguru.meleeanimation">Mods and Shit/Melee Animations</li>
-    <li IfModActive="bart.bioformmatrix">Mods and Shit/Bioform Matrix</li>
-    <li IfModActive="trickity.samurai.faction">Mods and Shit/T Samurai Faction</li>
-    <li IfModActive="Lakuna.PrepareModerately">Mods and Shit/Prepare Moderately</li>
-    <li IfModActive="ponpeco.pfkidsroom">Mods and Shit/Ponpeco Furniture Kids Room</li>
-    <li IfModActive="mlie.amnabisflags">Mods and Shit/Amnabi's Flags</li>
-    <li IfModActive="borsh.logicswitches">Mods and Shit/Logic Switch</li>
-    <li IfModActive="Yy.CapesandArmor">Mods and Shit/Layers Capes and Armor</li>
-    <li IfModActive="mlie.amnabisflags">Mods and Shit/Amnabi's Flags</li>
-    <li IfModActive="feb.biopunklivestock">Mods and Shit/FEBs Biopunk Livestock</li>
-    <li IfModActive="alma.carbonitecasket">Mods and Shit/Carbonite Casket</li>
-  </v1.5>
   <v1.6>
     <li>/</li>
+    <li>1.6</li>
     <li IfModActive="yayoflake.mahjong">Mods and Shit/Mahjong</li>
     <li IfModActive="orion.therapy">Mods and Shit/Therapy</li>
     <li IfModActive="biomesteam.biomesfossils">Mods and Shit/Biomes Fossils</li>
@@ -72,5 +40,6 @@
     <li IfModActive="fluffytowels.standingcryptosleepcasket">Mods and Shit/Standing Cryptopods</li>
     <li IfModActive="feb.biopunklivestock">Mods and Shit/FEBs Biopunk Livestock</li>
     <li IfModActive="alma.carbonitecasket">Mods and Shit/Carbonite Casket</li>
+    <li IfModActive="redmattis.betterprerequisites">Mods and Shit/Big and Small Framework</li>
   </v1.6>
 </loadFolders>
